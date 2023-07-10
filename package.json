@@ -1,0 +1,15 @@
+{
+  "name": "tribute_page_code_review-1",
+  "version": "1.0.0",
+  "description": "This repo is a pre-orientaion foundational Microverse project as a Micronaut and a newbie Full-Stack Software engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.10"
+  }
+}
