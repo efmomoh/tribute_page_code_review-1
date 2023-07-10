@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  height: auto;
+  width: 375px;
+}
+
+.top-nav {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.top-left {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 5px;
+  margin-left: -35px;
+}
+
+.center {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+.top-right {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.top-left li {
+  margin-inline: 2px;
+}
+.my-tube {
+  display: flex;
+  gap: 5px;
+  height: 25px;
+}
+
+.fa-bars {
+  font-size: 16px;
+  border: 0;
+}
+
+.fa-youtube {
+  font-size: 12px;
+  height: 12px;
+  border: 0;
+
+}
+.yt-logo {
+  font-size: 12px;
+  height: 23px;
+  border: 0;
+}
+
+.center {
+  display: flex;
+}
+.center li {
+  margin-inline: 20px;
+  margin-left: -25px;
+  margin-right: -1px;
+}
+
+.form li {
+  display: flex;  
+}
+
+.type-text   {
+  background-color: white;
+  width: 60px;
+  border: 0;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 60px;
+  text-align: center;
+  font-size: 9px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin-left: -5px;
+}
+
+.form {
+  display: flex;
+  height: 24px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-magnifying-glass {
+  font-size: 12px;
+  background: #efeff7;
+}
+
+.mic-icon {
+  margin-left: 20px;
+}
+
+.fa-microphone {
+  font-size: 18px;
+}
+
+.top-right {
+  display: flex;
+  float: right;
+  margin-left: -35px;
+}
+
+.top-right li {
+  margin-inline: 2px;
+}
+
+.fa-video {
+  font-size: 18px;
+  color: blue;
+}
+
+.fa-bell {
+  font-size: 18px;
+  color: blue;
+}
+.fa-circle-user {
+  font-size: 18px;
+  color: blue;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.left-bar-video {
+  height: 10vh;
+  width: 275px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.right-bar-header {
+  display: flex;
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.main-video {
+list-style-type: none;
+}
+
+.right-bar-header li {
+  margin-inline: 2px;
+}
+
+.right-bar-header li button {
+  font-size: 8px;
+}
+
+.right-scroll-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: -37px;
+  margin-left: 160px;
+}
+
+.right-scroll-bar ul {
+  list-style-type: none;
+  margin-top: 18px;
+}
+
+.right-scroll-bar ul li {
+  margin-bottom: 10px;
+}
+
+.right-scroll-bar ul li iframe {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
